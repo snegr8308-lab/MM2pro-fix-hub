@@ -14,8 +14,8 @@ local WindUI = loadstring(game:HttpGet("https://darahub.pages.dev/Module/Library
 
 Window = WindUI:CreateWindow({
     NewElements = true,
-    Title = "ProFix Hub V2 | Murder Mystery 2",
-    Icon = "rbxassetid://132306999367155",
+    Title = "Dara Hub | Murder Mystery 2",
+    Icon = "rbxassetid://137330250139083",
     Author = "Made by: Pnsdg And Yomka",
     Folder = "DaraHub/Games/Murder-Mystery-2(Normal-Mode)",
     Size = UDim2.fromOffset(580, 490),
@@ -35,7 +35,7 @@ Window:DisableTopbarButtons({ "Fullscreen" })
 pcall(updateWindowOpenState)
 Window:SetIconSize(48)
 Window:Tag({
-    Title = "V1.6.2",
+    Title = "V1.1.5",
     Color = Color3.fromHex("#30ff6a")
 })
 executor = identifyexecutor()
@@ -214,10 +214,12 @@ Tabs = {
     Visuals = Window:Tab({ Title = "Visuals", Icon = "camera" }),
     ESP = Window:Tab({ Title = "Esp", Icon = "eye" }),
     Teleport = Window:Tab({ Title = "Teleport", Icon = "navigation" }),
-    Troll = Window:Tab({ Title = "Troll Shit stuffs", Icon = "shield" }),
+    Troll = Window:Tab({ Title = "Troll Shit stuffs", Icon = "rbxassetid://6862780932" }),
     Misc = Window:Tab({ Title = "Misc", Icon = "star" }),
     Utility = Window:Tab({ Title = "Utility", Icon = "wrench" }),
     Settings = Window:Tab({ Title = "Settings", Icon = "settings" }),
+    info = Window:Tab({ Title = "Info", Icon = "info" }),
+    Others = Window:Tab({ Title = "Others", Icon = "https://em-content.zobj.net/source/apple/419/pile-of-poo_1f4a9.png" })
 }
 
 local socialsModule = loadstring(game:HttpGet("https://darahub.pages.dev/Module/info.lua"))()
