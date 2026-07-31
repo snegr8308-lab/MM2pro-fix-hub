@@ -9411,6 +9411,3 @@ Tabs.Settings:Button({
         })
     end
 })
-
-local UniverseScriptsStuff = loadstring(game:HttpGet("https://darahub.pages.dev/Module/More-Scripts.Lua"))()
-UniverseScriptsStuff(Tabs)
