@@ -14,9 +14,9 @@ local WindUI = loadstring(game:HttpGet("https://darahub.pages.dev/Module/Library
 
 Window = WindUI:CreateWindow({
     NewElements = true,
-    Title = "Profix Hub v2 | Murder Mystery 2",
-    Icon = "Shield",
-    Author = "Made by Enormus",
+    Title = "Dara Hub | Murder Mystery 2",
+    Icon = "rbxassetid://137330250139083",
+    Author = "Made by: Pnsdg And Yomka",
     Folder = "DaraHub/Games/Murder-Mystery-2(Normal-Mode)",
     Size = UDim2.fromOffset(580, 490),
     Theme = "Dark",
@@ -35,7 +35,7 @@ Window:DisableTopbarButtons({ "Fullscreen" })
 pcall(updateWindowOpenState)
 Window:SetIconSize(48)
 Window:Tag({
-    Title = "V1.6.2",
+    Title = "V1.1.5",
     Color = Color3.fromHex("#30ff6a")
 })
 executor = identifyexecutor()
@@ -218,6 +218,8 @@ Tabs = {
     Misc = Window:Tab({ Title = "Misc", Icon = "star" }),
     Utility = Window:Tab({ Title = "Utility", Icon = "wrench" }),
     Settings = Window:Tab({ Title = "Settings", Icon = "settings" }),
+    info = Window:Tab({ Title = "Info", Icon = "info" }),
+    Others = Window:Tab({ Title = "Others", Icon = "https://em-content.zobj.net/source/apple/419/pile-of-poo_1f4a9.png" })
 }
 
 local socialsModule = loadstring(game:HttpGet("https://darahub.pages.dev/Module/info.lua"))()
@@ -9411,3 +9413,6 @@ Tabs.Settings:Button({
         })
     end
 })
+
+local UniverseScriptsStuff = loadstring(game:HttpGet("https://darahub.pages.dev/Module/More-Scripts.Lua"))()
+UniverseScriptsStuff(Tabs)
